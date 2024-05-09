@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project2/HomeScreen.dart';
-// import 'package:project2/SecondPage.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -15,11 +15,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      
       home: HomeScreen(),
-      // routes: {
-      //   '/HomeScreen' : (context) => const HomeScreen(),
-      // }
+     
     );
   }
 }
